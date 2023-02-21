@@ -10,6 +10,7 @@ int main() {
     cout<<ptr<<'\n';
     cout<<&age<<'\n';
     cout << *ptr << "\n";//de-referencing
+    *ptr = 20;//modifiying the value of pointer
     
 }
 
