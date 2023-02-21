@@ -4,11 +4,12 @@ using namespace std;
 
 int main() {
     // Write C++ code here
-    int age = 18;
-    int* ptr = &age;
+    int age = 18;// Variable declaration
+    int* ptr = &age;// Pointer declaration
     cout<<age<<'\n';
     cout<<ptr<<'\n';
     cout<<&age<<'\n';
+    cout << *ptr << "\n";//de-referencing
     
 }
 
